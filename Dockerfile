@@ -1,8 +1,5 @@
 FROM docker.io/ubuntu:14.04
 
-MAINTAINER Gabriel Petry
-
-
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive  apt-get install -y \
         openjdk-7-jre \
